@@ -1,0 +1,46 @@
+package ODVCLPackDXE10RT;
+
+{$R *.res}
+{$R 'VCL.ODCalend.dcr'}
+{$R 'VCL.ODDBCal.dcr'}
+{$R 'VCL.ODPopCal.dcr'}
+{$R 'VCL.ODTime.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'My Power Station (Orbital Decisions) Components'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb;
+
+contains
+  VCL.ODCalend in 'VCL.ODCalend.pas',
+  VCL.ODDBCal in 'VCL.ODDBCal.pas',
+  VCL.ODPopCal in 'VCL.ODPopCal.pas' {ODCalendarForm},
+  VCL.ODTime in 'VCL.ODTime.pas';
+
+end.
