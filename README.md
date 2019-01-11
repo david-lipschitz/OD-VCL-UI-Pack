@@ -16,3 +16,7 @@ all kinds of other selections, eg week, month, year, etc.
 ## Getting Started
 
 To get started with this project, just `clone` this repository.
+
+## Notes
+
+At the moment, only ODCalendar, now VCL.ODCalendar is in the repo.
