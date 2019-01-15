@@ -1,9 +1,11 @@
 # My Power Station Technology (Pty) Ltd, formerly Orbital Decisions, hence the OD component prefix
 
-All Orbital Decisions components now in a single Package
+All Orbital Decisions components now in a single Package.
+
+This version with a VCL prefix. Another version for backwards compatibility without the VCL Prefix
 
 Copyright is with My Power Station Technology, but anyone can use these components free of charge. We would like you to refer to us.
-
+Latest Update: 15th January 2019
 
 ## Purpose
 
